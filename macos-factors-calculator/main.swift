@@ -66,7 +66,7 @@ case "--gcd":
     if num1 != nil
     {
         let num = Factors.greatestCommonDenominator(num1!, num2!)
-        print("Greates common denominator of \(num1!) adn \(num2!) is \(num)")
+        print("Greates common denominator of \(num1!) and \(num2!) is \(num)")
     }
     break
 case "--lcm":
@@ -76,7 +76,7 @@ case "--lcm":
     if num1 != nil
     {
         let num = Factors.leastCommonMultiple(num1!, num2!)
-        print("Least common multiple of \(num1!) adn \(num2!) is \(num)")
+        print("Least common multiple of \(num1!) and \(num2!) is \(num)")
     }
     break
 case "--factors":
